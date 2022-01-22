@@ -1,0 +1,35 @@
+================================================================================
+Summary of training process:
+Algorithm: FedEnsemble
+Batch size: 32
+Learing rate       : 0.01
+Ensemble learing rate       : 0.0001
+Average Moving       : 1.0
+Subset of users      : 10
+Number of global rounds       : 100
+Number of local rounds       : 5
+Dataset       : Mnist-class2
+Local Model       : cnn
+Device            : cuda
+================================================================================
+
+
+         [ Start training iteration 0 ]           
+
+
+ensemble_lr: 0.0003
+ensemble_batch_size: 128
+unique_labels: 10
+Loading testing data.
+Number of Train/Test samples: 60000 1980
+Data from 20 users in total.
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+-------------------------------------------------------

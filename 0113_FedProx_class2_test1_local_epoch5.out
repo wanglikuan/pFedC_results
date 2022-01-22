@@ -1,0 +1,963 @@
+================================================================================
+Summary of training process:
+Algorithm: FedProx
+Batch size: 32
+Learing rate       : 0.01
+Ensemble learing rate       : 0.0001
+Average Moving       : 1.0
+Subset of users      : 20
+Number of global rounds       : 20
+Number of local rounds       : 5
+Dataset       : Mnist-class2
+Local Model       : cnn
+Device            : cuda
+================================================================================
+
+
+         [ Start training iteration 0 ]           
+
+
+Users in total: 20
+Number of users / total users: 20  /  20
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  1  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  2  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  3  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  4  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  5  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  6  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  7  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  8  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  9  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  10  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  11  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  12  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  13  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  14  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  15  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  16  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  17  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  18  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+
+
+-------------Round number:  19  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.4666666666666667
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+Average Global Accurancy = 0.0990, Loss = nan.
+Finished training.

@@ -1,0 +1,2624 @@
+================================================================================
+Summary of training process:
+Algorithm: FedAvg
+Batch size: 32
+Learing rate       : 0.01
+Ensemble learing rate       : 0.0001
+Average Moving       : 1.0
+Subset of users      : 20
+Number of global rounds       : 200
+Number of local rounds       : 20
+Dataset       : Mnist-alpha0.1-ratio0.5
+Local Model       : cnn
+Device            : cuda
+================================================================================
+
+
+         [ Start training iteration 0 ]           
+
+
+Creating model for mnist
+Network configs: [6, 16, 'F']
+Users in total: 20
+Number of users / total users: 20  /  20
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  1  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  2  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  3  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  4  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  5  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  6  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  7  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  8  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  9  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  10  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  11  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  12  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  13  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  14  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  15  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  16  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  17  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  18  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  19  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  20  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  21  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  22  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  23  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  24  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  25  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  26  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  27  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  28  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  29  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  30  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  31  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  32  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  33  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  34  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  35  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  36  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  37  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  38  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  39  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  40  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  41  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  42  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  43  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  44  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  45  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  46  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  47  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  48  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  49  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  50  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
+
+
+-------------Round number:  51  -------------
+
+
+All users are selected
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.24873096446700507
+------------------------------
+client Accurancy:  0.16554054054054054
+------------------------------
+client Accurancy:  0.12373737373737374
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.12189054726368159
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.196
+------------------------------
+client Accurancy:  0.1991869918699187
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.16387959866220736
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.19291338582677164
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.3310810810810811
+------------------------------
+client Accurancy:  0.0
+------------------------------
+client Accurancy:  0.1384180790960452
+------------------------------
+client Accurancy:  0.1695501730103806
+------------------------------
+client Accurancy:  0.0
+test_samples:  [252, 197, 296, 396, 98, 402, 149, 250, 246, 242, 299, 247, 299, 254, 302, 148, 191, 354, 289, 396]
+test_losses:  [tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>), tensor(nan, grad_fn=<AddBackward0>)]
+test_accs:  [0.0, 49.0, 49.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0, 49.0, 0.0, 0.0, 49.0, 0.0, 49.0, 0.0, 49.0, 49.0, 0.0]
+Average Global Accurancy = 0.1016, Loss = nan.
